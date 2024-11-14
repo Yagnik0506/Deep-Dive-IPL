@@ -85,7 +85,7 @@ if option == 'Home':
 
     st.table(decision_making)
     # Set the palette
-    custom_palette = ["red", "blue"]  # Example: red and blue
+    custom_palette = ["pink", "black"]  # Example: red and blue
     sns.set_palette(custom_palette)
 
     # Create the plot
