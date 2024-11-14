@@ -146,17 +146,17 @@ if option == 'Player Wise':
                 plt.ylabel('Batting Strike Rate', fontsize=20)
                 plt.title('Top Players Based On Their Strike Rate', fontsize=20)
             elif whatUWant == 'runs':
-                plt.bar(x=top_ten['player'], height=top_ten[whatUWant], color='red')
+                plt.bar(x=top_ten['player'], height=top_ten[whatUWant], color='pink')
                 plt.xlabel('Player Name', fontsize=20)
                 plt.ylabel('Runs Scored', fontsize=20)
                 plt.title('Top Players Based On Top Run Scored', fontsize=20)
             elif whatUWant == 'boundaries':
-                plt.bar(x=top_ten['player'], height=top_ten[whatUWant], color='blue')
+                plt.bar(x=top_ten['player'], height=top_ten[whatUWant], color='green')
                 plt.xlabel('Player Name', fontsize=20)
                 plt.ylabel('Number Of Boundaries Hitted', fontsize=20)
                 plt.title('Top Players Based Hitting Boundaries', fontsize=20)
             elif (whatUWant == 'batting_avg'):
-                plt.bar(x=top_ten['player'], height=top_ten[whatUWant], color='brown')
+                plt.bar(x=top_ten['player'], height=top_ten[whatUWant], color='blue')
                 plt.xlabel('Player Name' , fontsize = 20)
                 plt.ylabel('Batting Average', fontsize = 20)
                 plt.title('Top Players Based Batting Average', fontsize = 20)
