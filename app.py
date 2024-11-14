@@ -9,6 +9,7 @@ st.sidebar.title("Deep Dive IPL")
 # Load an image from file in the same directory
 image_filename = 'OIP.jpeg'
 custom_width = 150
+
 st.sidebar.image(image_filename, caption=' ', width=custom_width)
 
 
@@ -43,7 +44,7 @@ if option == 'Home':
     st.markdown(""" 
         <style> 
             .horizontal-rule {
-                border: 2px solid orange; 
+                border: 2px solid blue; 
                 margin: 20px 0; 
             }
         </style> 
